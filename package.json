@@ -1,0 +1,24 @@
+{
+  "name": "toytastic",
+  "version": "1.0.0",
+  "description": "The Official SHSS Toytastic Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Braeden57/Toytastic.git"
+  },
+  "author": "Braeden Sowinski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Braeden57/Toytastic/issues"
+  },
+  "homepage": "https://github.com/Braeden57/Toytastic#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}

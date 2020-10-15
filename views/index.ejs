@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Toytastic</title>
+        <meta name='description' content='This is the SHSS Toytastic Website!'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+        <!-- Load CSS -->
+        <link rel='stylesheet' href='/static/css/style.css'>       
+        <link rel='stylesheet' href='/static/css/slide.css'>
+    </head>
+    <body>
+        <nav>
+            <div class='logo'>
+                <a href='https://www.surreyschools.ca/schools/sullivanheights'><img src='/static/images/shss-logo.png' alt='shss-logo'></a>
+            </div>
+            <ul class="nav__links">
+                <li><a href='#images'>Images</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class='wrapper'>
+            <div class='main'>
+                <div class='image-box'>
+                    <div class='image-wrap'>
+                        <img src='/static/images/background.jpg' alt='background'>
+                    </div>
+                    <div class='main-content'>
+                        <div class='details-box'>
+                            <h2>SHSS Toytastic Club</h2>
+                            <h1>For the toy lovers and <span>collectors</span></h1>
+                            <p>This site is made by one of the club memebers.
+                            Made for the everyone, collectors, toy lovers to share
+                            their images. We would love for you to join.</p>
+                            <p>Get Started!</p>
+                            <a href='https://teams.microsoft.com/l/team/19%3a189ee1c1c8364fc4b948287b44c5060c%40thread.tacv2/conversations?groupId=c394f805-53dd-4c97-8d14-0be687f3405f&tenantId=08b4e9cf-8113-420d-ba07-52f7d4df8acd'>Join our Team</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='images'>
+            <a name='images'></a>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="/static/images/img1.png" style="width:25%" alt=''>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="/static/images/img2.png" style="width:25%" alt=''>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="/static/images/img3.png" style="width:25%" alt=''>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">Prev</a>
+                <a class="next" onclick="plusSlides(1)">Next</a>
+            </div>
+        </div>
+
+        <!-- Load Scripts -->
+        <script src='/static/scripts/slide.js'></script>
+    </body>
+</html>
