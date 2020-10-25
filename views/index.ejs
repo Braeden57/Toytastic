@@ -1,65 +1,68 @@
 <!DOCTYPE html>
 <html lang='en'>
-    <head>
-        <title>Toytastic</title>
-        <meta name='description' content='This is the SHSS Toytastic Website!'>
-        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
-        <!-- Load CSS -->
-        <link rel='stylesheet' href='/static/css/style.css'>
-    </head>
-    <body>
-        <nav>
-            <div class='logo'>
-                <a href='https://www.surreyschools.ca/schools/sullivanheights'>Sullivan Heights</a>
-            </div>
-            <ul class="nav__links">
-                <li><a href='/images'>Images</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class='wrapper'>
-            <div class='main'>
-                <div class='image-box'>
-                    <div class='image-wrap'>
-                        <img src='/static/images/background.jpg' alt='background'>
-                    </div>
-                    <div class='main-content'>
-                        <div class='details-box'>
-                            <h2>SHSS Toytastic Club</h2>
-                            <h1>For the toy lovers and <span>collectors</span></h1>
-                            <p>This site is made by one of the club memebers.
-                            Made for the everyone, collectors, toy lovers to share
-                            their images. We would love for you to join.</p>
-                            <p>Get Started!</p>
-                            <a href='https://teams.microsoft.com/l/team/19%3a189ee1c1c8364fc4b948287b44c5060c%40thread.tacv2/conversations?groupId=c394f805-53dd-4c97-8d14-0be687f3405f&tenantId=08b4e9cf-8113-420d-ba07-52f7d4df8acd'>Join our Team</a>
-                        </div>
+<head>
+    <title>Toytastic</title>
+    <meta name='description' content='This is the SHSS Toytastic Website!'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <!-- Load CSS -->
+    <link rel='stylesheet' href='/static/css/style.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <nav>
+        <ul class="nav__links">
+            <li><a href='#main'>Home</a></li>
+            <li><a href='/images'>Images</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href='https://www.surreyschools.ca/schools/sullivanheights'>Sullivan Heights</a></li>
+        </ul>
+    </nav>
+    <div id="mobile__menu" class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay__content">
+            <a href="/rules">Rules</a>
+            <a href='/requirements'>Requirements</a>
+            <a href="/about">About</a>
+            <a href='/contact'>Contact</a>
+        </div>
+    </div>
+    <div class='wrapper'>
+        <div class='main' id='main'>
+            <div class='image-box'>
+                <div class='image-wrap'>
+                    <img src='/static/images/background.jpg' alt='background'>
+                </div>
+                <div class='main-content'>
+                    <div class='details-box'>
+                        <h2>SHSS Toytastic Club</h2>
+                        <h1>For the toy lovers and <span>collectors</span></h1>
+                        <p>This site is made by one of the club memebers. Made for the everyone, collectors, toy lovers to share their images. We would love for you to join.</p>
+                        <p>Get Started!</p>
+                        <a href='https://teams.microsoft.com/l/team/19%3a189ee1c1c8364fc4b948287b44c5060c%40thread.tacv2/conversations?groupId=c394f805-53dd-4c97-8d14-0be687f3405f&tenantId=08b4e9cf-8113-420d-ba07-52f7d4df8acd'>Join our Team</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class='about'>
-            <a name='about'></a>
-            <div class='about-content'>
-                <div class='about-container'>
-                    <h2>About Us</h2>
-                    <p>SHSS Toytastic Club is for all, wether you enjoy
-                    toys or collect. We come together to share our likes, 
-                    differences, toys, and more. This isn't just about toys.
-                    Its about a community of people who enjoy all sorts.
-                    Like movies, tv shows, games and all pop culture.</p>
-                </div>
-                <div class='creator'>
-                    <h2>About Me</h2>
-                    <p>I am Braeden, one of the Toytastic Club Memebers. 
-                    I custome proggramed this site for the memebers to 
-                    share images of their collections or toys.</p>
-                </div>
-            </div>
-        </div>
+    </div>
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; margin-top: 10%; font-size: 115%;" id="about">
+        <h2 class="w3-wide">THE CLUB</h2>
+        <p class="w3-opacity"><i>We love Toys</i></p>
+        <p class="w3-justify">This website was created for the club. Who can join? Anyone can. We aren't just about toys. We talk and share our likes of all things; Movies, TV Shows, Games etc. This Site was created by a Club member himself!
+        </p>
+        <div class="w3-row w3-padding-32">
 
-        <!-- Load Scripts -->
-        <script src='/static/scripts/slide.js'></script>
-    </body>
+        </div>
+    </div>
+    <div class=>
+
+    </div>
+
+    <!-- Load Scripts -->
+    <script src='/static/scripts/slide.js'></script>
+</body>
+
 </html>
