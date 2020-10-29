@@ -7,7 +7,25 @@
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(37, 67, 152, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+.gallary-body {
+    overflow-y: hidden;
+}
+
 nav {
+    overflow-y: hidden;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -163,7 +181,8 @@ ul li a:hover {
     background: rgb(4,28,56);
     background: linear-gradient(31deg, rgba(4,28,56,1) 47%, rgba(65,99,130,1) 89%);
     transform: translate(0, 150px);
-    margin: 10px 50px;
+    margin: 0;
+    padding: 0;
     height: 100vh;
 }
 
@@ -182,6 +201,8 @@ ul li a:hover {
 
 .menu {
     display: none;
+    color: white;
+    size: 125%;
 }
 
 .overlay {
@@ -209,6 +230,8 @@ ul li a:hover {
 }
 
 .overlay a {
+    color: white;
+    text-decoration: none;
     padding: 15px;
     font-size: 36px;
     display: block;
@@ -248,4 +271,9 @@ ul li a:hover {
     .menu {
         display: initial;
     }
+}
+
+/* Mobile background fix*/
+@media all and (max-width:480px) {
+    img {display:block;margin:0 auto;}
 }
